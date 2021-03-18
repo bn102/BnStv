@@ -1,3 +1,3 @@
-# stv-ArduinoSerialServoControl
+# BnStv
 
-Controlling servos from an Arduino using messages sent by a serial connection.
+My repo for bits of code to do with Surrogate.tv
