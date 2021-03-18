@@ -6,20 +6,15 @@
 
 #include <Servo.h>
 
-Servo xservo;  // create servo object to control a servo
-Servo yservo;  // create servo object to control a servo
+Servo xservo;  // create servo object to control servo 'x'
+Servo yservo;  // create servo object to control servo 'y'
 
-int xpin = 0;  // analog pin used to connect the potentiometer
-int xval;    // variable to read the value from the analog pin
-int ypin = 1;  // analog pin used to connect the potentiometer
-int yval;    // variable to read the value from the analog pin
-
-void setup() {
+void setup() { 
   
   Serial.begin(9600);
   
-  xservo.attach(9);  // attaches the servo on pin 9 to the servo object
-  yservo.attach(10);  // attaches the servo on pin 9 to the servo object
+  xservo.attach(9);  // Connect to 'x' axis servo to digital pin 9 of the Arduino
+  yservo.attach(10);  // Connect to 'x' axis servo to digital pin 10 of the Arduino
   
 }
 
